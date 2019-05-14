@@ -1,3 +1,5 @@
 discord
 pip
 Pymoe
+asyncio
+youtube_d1
