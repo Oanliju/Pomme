@@ -213,4 +213,4 @@ async def youtube(ctx, arg):
     await ctx.message.channel.send(embed=e)
 
 
-bot.run(str(os.environ.get('NTU2NTM0ODUyMTM3MjU0OTMy.XNbSyQ.fd15xlYsQrYad4C3McaItqMYt-8')))
+bot.run(str(os.environ.get('BOT_TOKEN')))
