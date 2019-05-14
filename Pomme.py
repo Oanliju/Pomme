@@ -1,6 +1,10 @@
 import discord
 from discord.ext import commands
 import os
+from discord.ext.commands import Bot
+import asyncio
+import requests
+import random
 
 bot = commands.Bot(commands.when_mentioned_or('='))
 bot.remove_command(name="help")
